@@ -4,9 +4,7 @@
 
 # 👨‍🚀 NLW Journey
 
-Welcome to the **NLW Journey** repository! This repository is set up for the deployment of the `Journey API`, developed using **Go**.
-
-## Overview
+Welcome to the **NLW Journey** repository! This repository is set up for the deployment of the `Journey API`
 
 This project leverages `Docker` and `Kubernetes` to streamline deployment and ensure scalability. `Continuous Integration` is integrated to automate the process of building and pushing Docker images to DockerHub.
 
