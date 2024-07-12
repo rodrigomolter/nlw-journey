@@ -8,20 +8,24 @@ Welcome to the **NLW Journey** repository! This repository is set up for the dep
 
 This project leverages `Docker` and `Kubernetes` to streamline deployment and ensure scalability. `Continuous Integration` is integrated to automate the process of building and pushing Docker images to DockerHub.
 
-## Key Features
+## Key Features 🔑
 
 - **Docker**: Containerization for consistent and portable application environments.
 - **Kubernetes**: Orchestration for easy replication and scalability using Infrastructure as Code (IaC).
 - **CI Integration**: Automated build and push of Docker images to DockerHub.
 
-## Getting Started
+## Getting Started 🚀
 
-### Prerequisites
+### Pre-requirements 📋
 
 - Docker
 - Kubernetes
 
-### Usage
+### Environment Variables 🌲
+Make a copy of the `env.template` file and rename it to `.env`
+Change the variables inside `.env` with the credentials you prefer.
+
+### Usage 🏗️
 You can either **run the Docker container locally:**
 ```sh
 docker run -p 8080:8080 rodrigomolter/nlw-journey:latest
