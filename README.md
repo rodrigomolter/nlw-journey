@@ -35,7 +35,7 @@ docker-compose up
 
 Also, you can create replicas by **deploying to Kubernetes:**
 ```sh
-kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s
 ```
 
 ## Support this project 🙌
